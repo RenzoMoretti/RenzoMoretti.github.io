@@ -24,10 +24,12 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: sticky;
 }
 
 nav ul li {
     float: left;
+    border-right: 1px solid #bbbbbb;
 }
 
 nav ul li a {
