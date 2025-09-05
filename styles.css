@@ -19,7 +19,7 @@ p {
 }
 
 nav ul {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(24, 24, 24);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,5 +42,51 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #111111;
+    background-color: #ffffff;
+    color: black;
+}
+
+#active {
+    background-color: rgb(105, 105, 105);
+}
+
+
+.aside_menu {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.aside_menu li {
+    list-style-type: none;
+}
+
+.aside_menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.aside_menu {
+display: inline-flex;
+  }
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #fff;
 }
