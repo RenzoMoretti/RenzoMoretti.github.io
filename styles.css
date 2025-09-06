@@ -1,58 +1,60 @@
-#Persoonlijke-Buitenschoolse {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-h1 {
-    font-size: 40px;
-}
-
 p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#games {
+#games {                        /* List of games I play */
     margin-top: 5px;
     margin-bottom: 5px;
     list-style-type: none;
+    padding-left: 0px;
 }
 
-nav ul {
-    background-color: rgb(24, 24, 24);
+nav {                           /* Navigation bar */
+    top: 0;
+    background-color: #1d1d1d;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+nav ul {                        /* Navigation bar */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: sticky;
+    display: flex;
+    gap: 12px;
 }
 
-nav ul li {
+nav ul li {                     /* Navigation bar */
     float: left;
-    border-right: 1px solid #bbbbbb;
 }
 
-nav ul li a {
-    display: block;
+nav ul li a {                   /* Navigation bar */
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 18px 23px;
+    padding: 8px 16px;
     text-decoration: none;
     font-size: 22px;
+    border-radius: 20px;
+    transition: background 0.5s ease, color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav ul li a:hover {             /* Navigation bar hover */
     background-color: #ffffff;
     color: black;
 }
 
-#active {
-    background-color: rgb(105, 105, 105);
+#active {                       /* Navigation bar active */
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 
 .aside_menu {
-    background-color: rgb(24, 24, 24);
     color: white;
 }
 
@@ -65,19 +67,10 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-html {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-.aside_menu {
-display: inline-flex;
-  }
-
 footer {
-  background: #222;
+  background: #1d1d1d;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
@@ -89,4 +82,55 @@ footer a {
 
 footer a:hover {
   color: #fff;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    color: white;
+    display: inline-block;
+    font-size: 23px;
+    border-radius: 20px;
+    background: #1d1d1d;
+    padding: 6px 9px;
+    transition: background 0.5s ease, color 0.3s ease;
+    margin-bottom: 8px;
+    box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+summary:hover {
+    background-color: white;
+    color: black;
+    border-color: #1d1d1d;
+    box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+summary:active {
+    background-color: white;
+    color: black;
+    border-color: #1d1d1d;
+    box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+details[open] summary {
+    background-color: white;
+    color: black;
+    border-color: #1d1d1d;
+    box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+details[open] summary:hover {
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border-color: #1d1d1d;
+    box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+#answer {
+    background-color: #1d1d1d;
+    display: inline-block;
+    margin: 1px 1px 1px 1px;
+    color: white;
 }
