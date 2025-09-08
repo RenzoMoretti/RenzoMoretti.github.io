@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+}
+
 p {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #games {                        /* List of games I play */
@@ -90,8 +102,18 @@ footer a:hover {
   color: #fff;
 }
 
+.faq {
+    display: flex;
+    font-family: sans-serif;
+    gap: 10vw;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
 details {
-    display: block;
+    justify-content: center;
+    width: 250px;
+    
 }
 
 summary {
@@ -131,14 +153,14 @@ details[open] summary:hover {
     background-color: rgb(216, 216, 216);
     color: black;
     border-color: #1d1d1d;
-    box-shadow: 0 0 0 2px #1d1d1d;
+    /* box-shadow: 0 0 0 2px #1d1d1d; */
 }
 
 #answer {
-    background-color: #1d1d1d;
+    background-color: #ffffff;
     display: inline-block;
     margin: 1px 1px 1px 1px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .table-wrapper {
