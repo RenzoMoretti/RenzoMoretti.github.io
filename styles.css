@@ -141,11 +141,43 @@ details[open] summary:hover {
     color: white;
 }
 
-table, th, td {
-    border:1px solid black;
+.table-wrapper {
+    display: inline-block;
+    padding: 0px;
+    justify-self: center;
+    border: 3px solid #1d1d1d;
+    border-radius: 20px;
+  }
+  
+  /* tabel zelf */
+  table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  /* headers */
+  th {
+    background: #1d1d1d;
+    color: white;
+    padding: 7px 30px;
+    text-align: left;
+    border-right: 1px solid #fff;
+  }
+  
+  th:last-child {
+    border-right: none;
+  }
+  
+  /* cellen */
+  td {
+    background: white;
+    padding: 7px 30px;
+    border-top: 1px solid #ccc;
   }
 
-.tablecenter {
+.center-container {
     text-align: center;
 }
-
