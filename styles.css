@@ -209,4 +209,7 @@ details[open] summary:hover {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  /* width: 35vw; */
+  margin-left: 22vw;
+  margin-right: 14vw;
 }
