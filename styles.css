@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/514/324/non_2x/white-gradient-abstract-curve-pattern-free-photo.jpeg');
 }
 
 p {
@@ -105,7 +106,7 @@ footer a {
 .faq {
     display: flex;
     font-family: sans-serif;
-    gap: 10vw;
+    gap: 2vw;
     justify-content: center;
     padding-bottom: 100px;
 }
@@ -117,11 +118,11 @@ details {
 }
 
 summary {
-    color: white;
+    color: rgb(0, 0, 0);
     display: inline-block;
     font-size: 23px;
     border-radius: 20px;
-    background: #1d1d1d;
+    background: #ffffff;
     padding: 6px 9px;
     transition: background 0.5s ease, color 0.3s ease;
     margin-bottom: 8px;
@@ -129,35 +130,33 @@ summary {
 }
 
 summary:hover {
-    background-color: white;
-    color: black;
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
     border-color: #1d1d1d;
     box-shadow: 0 0 0 2px #1d1d1d;
 }
 
 summary:active {
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-color: #1d1d1d;
     box-shadow: 0 0 0 2px #1d1d1d;
 }
 
 details[open] summary {
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-color: #1d1d1d;
     box-shadow: 0 0 0 2px #1d1d1d;
 }
 
 details[open] summary:hover {
-    background-color: rgb(216, 216, 216);
-    color: black;
+    background-color: rgb(31, 31, 31);
+    color: #ffffff;
     border-color: #1d1d1d;
-    /* box-shadow: 0 0 0 2px #1d1d1d; */
 }
 
 #answer {
-    background-color: #ffffff;
     display: inline-block;
     margin: 1px 1px 1px 1px;
     color: rgb(0, 0, 0);
@@ -204,12 +203,52 @@ details[open] summary:hover {
     text-align: center;
 }
 
+#copyright {
+    color: white;
+    margin-left: 65vw;
+    margin-right: 12vw;
+    font-size: 10px;
+}
+
 .blog-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  /* width: 35vw; */
-  margin-left: 22vw;
-  margin-right: 14vw;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  font-family: sans-serif
+}
+
+.blog-1, .blog-2, .blog-3 {
+    border: #1d1d1d;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 0 2px #1d1d1d;
+    padding: 6px 9px;
+    width: 400px;
+}
+
+.blog-container h2 {
+    text-align: center;
+}
+
+.read-more {
+  border: #1d1d1d;
+  border-radius: 20px;
+  background: #1d1d1d;
+  box-shadow: 0 0 0 2px #1d1d1d;
+  padding: 4px 5px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  transition: background 0.5s ease, color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px #1d1d1d;
 }
