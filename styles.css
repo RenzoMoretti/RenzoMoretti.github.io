@@ -221,7 +221,7 @@ details[open] summary:hover {
   justify-content: center;
   margin-left: 11vw;
   margin-right: 11vw;
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
 .blog-1, .blog-2, .blog-3 {
@@ -230,10 +230,7 @@ details[open] summary:hover {
     background: #ffffff;
     box-shadow: 0 0 0 2px #1d1d1d;
     padding: 6px 9px;
-    width: 400px;
-}
-
-.blog-container h2 {
+    width: 300px;
     text-align: center;
 }
 
@@ -309,4 +306,9 @@ details[open] summary:hover {
     box-shadow: 0 0 0 2px;
     border-radius: 20px;
     padding: 10px;
+}
+
+#pfp {
+    width: 200px;
+    border-radius: 20px;
 }
