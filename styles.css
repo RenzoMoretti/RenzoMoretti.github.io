@@ -23,7 +23,7 @@ h1 {
     padding-left: 0px;
 }
 
-nav {                           /* Navigation bar */
+.topnav {                           /* Navigation bar */
     top: 0;
     border-radius: 40px;
     padding: 10px;
@@ -32,7 +32,7 @@ nav {                           /* Navigation bar */
     justify-content: center;
 }
 
-nav ul {                        /* Navigation bar */
+.topnav ul {                        /* Navigation bar */
     list-style-type: none;
     background-color: #1d1d1d;
     border-radius: 40px;
@@ -44,11 +44,11 @@ nav ul {                        /* Navigation bar */
     align-items: center;
 }
 
-nav ul li {                     /* Navigation bar */
+.topnav ul li {                     /* Navigation bar */
     float: left;
 }
 
-nav ul li a {                   /* Navigation bar */
+.topnav ul li a {                   /* Navigation bar */
     display: flex;
     color: white;
     text-align: center;
@@ -61,7 +61,7 @@ nav ul li a {                   /* Navigation bar */
     font-family: sans-serif;
 }
 
-nav ul li a:hover {             /* Navigation bar hover */
+.topnav ul li a:hover {             /* Navigation bar hover */
     background-color: #ffffff;
     color: black;
 }
@@ -251,4 +251,58 @@ details[open] summary:hover {
   background-color: white;
   color: black;
   box-shadow: 0 0 0 2px #1d1d1d;
+}
+
+.blognav {
+    position: absolute;
+    top: 171px;
+    left: 10vw;
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px #1d1d1d;
+    font-family: sans-serif;
+    
+}
+
+.blognav ul {
+    list-style-type: none;
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    padding: 0 5px 0  5px;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.blognav ul li {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.blognav ul li:last-child {
+    margin-bottom: 15px;
+}
+
+.blognav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #1d1d1d;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 15px;
+    transition: background 0.5s ease, color 0.3s ease;
+}
+
+.blognav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.fullblog {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 0 2px;
+    border-radius: 20px;
+    padding: 10px;
 }
