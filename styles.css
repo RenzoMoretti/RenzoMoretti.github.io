@@ -402,3 +402,13 @@ div#pers-inf p {
 #setup {
     width: 300px;
 }
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  font-family: sans-serif;
+}
