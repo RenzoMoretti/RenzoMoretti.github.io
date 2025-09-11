@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-image: url('https://static.vecteezy.com/system/resources/previews/022/514/324/non_2x/white-gradient-abstract-curve-pattern-free-photo.jpeg');
+    background-size: 100%;
     font-family: sans-serif;
 }
 
@@ -311,7 +312,7 @@ details[open] summary:hover {
 
 #pers-inf {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 0 20px 0 20px;
   border-radius: 15px;
   width: fit-content;
   text-align: center;
@@ -323,4 +324,30 @@ details[open] summary:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#social-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#instagram {
+    width: 38px;
+    margin-top: 1px;
+}
+
+#github {
+    width: 40px;
+}
+
+#snapchat {
+    width: 40px;
+}
+
+#discord {
+    width: 40px;
 }
