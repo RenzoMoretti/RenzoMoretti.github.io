@@ -318,6 +318,7 @@ details[open] summary:hover {
   text-align: center;
   box-shadow: 0 0 0 2px #1d1d1d;
   font-family: sans-serif;
+  margin-right: 2vw;
 }
 
 #center-wrapper {
@@ -350,4 +351,28 @@ details[open] summary:hover {
 
 #discord {
     width: 40px;
+}
+
+div#pers-inf p {
+  margin: 5px 0 !important;
+}
+
+#cycling {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px #1d1d1d;
+    width: 22vw;
+    padding: 10px;
+    margin-left: 2vw;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+#race {
+    width: auto;
+    border-radius: 20px;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    width: 19vw;
 }
