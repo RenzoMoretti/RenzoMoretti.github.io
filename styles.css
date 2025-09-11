@@ -319,9 +319,10 @@ details[open] summary:hover {
   box-shadow: 0 0 0 2px #1d1d1d;
   font-family: sans-serif;
   margin-right: 2vw;
+  margin-left: 10vw;
 }
 
-#center-wrapper {
+#center-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,18 +362,42 @@ div#pers-inf p {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 0 2px #1d1d1d;
-    width: 22vw;
     padding: 10px;
     margin-left: 2vw;
-    height: 400px;
     padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-right: 2vw;
+}
+
+#cycling p {
+    width: 350px;
 }
 
 #race {
-    width: auto;
     border-radius: 20px;
-    margin-left: 1.5vw;
-    margin-right: 1vw;
-    margin-bottom: 1vw;
-    width: 19vw;
+    width: 300px
+}
+
+#gaming {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 2vw;
+    box-shadow: 0 0 0 2px #1d1d1d;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-right: 10vw;
+}
+
+#gaming p {
+    width: 350px;
+}
+
+#setup {
+    width: 300px;
 }
