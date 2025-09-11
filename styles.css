@@ -160,6 +160,10 @@ details[open] summary:hover {
     display: inline-block;
     margin: 1px 1px 1px 1px;
     color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 0 0 0 2px #1d1d1d;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .table-wrapper {
@@ -256,7 +260,7 @@ details[open] summary:hover {
 .blognav {
     position: absolute;
     top: 171px;
-    left: 10vw;
+    margin-left: 13vw;
     background-color: #1d1d1d;
     border-radius: 20px;
     box-shadow: 0 0 0 2px #1d1d1d;
@@ -299,7 +303,7 @@ details[open] summary:hover {
 }
 
 .fullblog {
-    width: 500px;
+    width: 40vw;
     margin: auto;
     background-color: white;
     box-shadow: 0 0 0 2px;
